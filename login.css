@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: century gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../banner.jpg);
+    position: relative;
+	height:625px;
+	background-size:cover;
+	background-position:center;
+}
+    /*LOGIN BOX STARTS */ 
+
+    .container{
+       
+        background: #f5f5f5 ;
+        color: rgb(12, 3, 3);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        padding: 25px 20px;
+    }
+    
+    .user{
+        width: 50px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        left: calc(50% - 50px);
+    }
+    
+    h1{
+        margin: 0;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 22px;
+        color: black;
+    }
+    
+    p{
+        color: #f49126;
+        margin: 5x;
+        padding: 10px 20px ;
+        font-weight: bold;
+    }
+    
+    input{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+     input[type="text"], input[type="password"] ,input[type="email"]
+    {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 35px;
+        color: #673ab7;
+        font-size: 16px;
+    }
+    
+    input[type="submit"]
+    {
+        border: 30px;
+        outline: 30px;
+        height: 50px;
+        background: #2196f3;
+        color: #fff;
+        font-size: 30px;
+        border-radius: 20px;
+        cursor: pointer;
+    
+    }
+    
+    
+    input[type="submit"]:hover
+    {
+        cursor: pointer;
+        background: #0097a7;
+    }
+    
+    a
+    {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 20px;
+        color: #069818;
+    }
+    
+    
+    a:hover
+    {
+        color: rgb(28, 15, 216);
+    }
+    
+
+    /* //LOGIN BOX ENDS */
+   
+
+    
+

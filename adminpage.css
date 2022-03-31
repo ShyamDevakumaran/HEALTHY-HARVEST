@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: century gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../banner.jpg);
+    position: relative;
+	height:625px;
+	background-size:cover;
+	background-position:center;
+}
+
+      
+       /*HEADER STARTS*/
+
+
+/*@media screen and (max-width:604px){
+    .header{
+        width: 100px;
+    }
+    
+}*/
+
+.tittle{
+	position:absolute;
+	top:6%;
+	left:50%;
+	transform:translate(-50%,-50%);
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+}
+.tittle h1{
+	color:#fff;
+	font-size:30;
+    letter-spacing: 0.1cm;
+}
+
+.tittle h1 span {
+    border:0px solid white;
+    padding: 0x 14px;
+    display:inline-block;
+}
+
+
+ul{
+	float:right;
+    border-spacing:inherit;
+    letter-spacing: inherit;
+	list-style-type:none;
+	margin-top:75px;
+}
+
+ul li{
+	display:inline-block;
+}
+
+ul li a {
+    font-size:20;
+    border:0px solid #fff;
+    left:50%;
+	padding:1px 10px;
+	color:#fff;
+	text-decoration:none;
+	transition:0.1s ease;
+}
+
+ul li a:hover{
+	background-color:#228b22;
+	color:#fff;
+}
+
+
+ul li .active a{
+	background-color:#fff;
+}
+
+
+/*@media screen and (max-width:100px){
+    .container{
+        width: 100px;
+    }
+    .container .form{
+        width: 70px;
+    }
+    .container .form form .form-control{
+        width:30px;
+    }
+    
+}*/
+  
+
+    /* //HEADER ENDS */
+
+
+    /*BOTTOM PAGE STARTS */
+
+.wrapper{
+    top:100%;
+    left:100%;
+    align-items: column;
+}
+.bottom{
+    top:105%;
+    letter-spacing: 4.5cm;
+    position: absolute;
+    transform: translate3d(90%);
+    display: flex;
+    align-items:center;
+}
+
+.bottom li {
+    list-style-image: none;
+}
+
+.bottom li a {
+    list-style-image:none;
+}
+.bottom li a:hover{
+    background: #fff;
+}
+
+.con{
+     top:100%;
+     left:100%;
+     color: #fff;
+}
+
+.tet{
+    text-transform: uppercase;
+    color: #fff;
+    height:100px;
+     top:30%;
+     left:42%;
+     position: absolute;
+}
+
+    
+.h1{
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.logoutLblPos{
+
+    position:fixed;
+    right:10px;
+    top:50px;
+ }
+     /* //BOTTOM PAGE ENDS */
+
+     

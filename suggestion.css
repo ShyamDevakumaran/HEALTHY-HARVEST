@@ -1,0 +1,52 @@
+*{
+	margin:0:
+	padding:0;
+	font-family: century gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../banner.jpg);
+    position: relative;
+	height:97vh;
+	background-size:cover;
+	background-position:center;
+}
+
+
+.container{
+   
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    background: rgba(0,0,0,0);
+    padding: 30px 34px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,10), 0 6px 20px 0 rgba(0, 0, 0, 10);
+}
+.container .form form .form-control{
+    /*width:px;*/
+    height:25px;
+    font-size:20px;
+}
+
+.container .form form .button{
+    background: #6665ee;
+    color: #fff;
+    /*width: 150px;*/
+    font-size: 10px;
+    font-weight:500px;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #5757d1;
+}
+.container .form form .link{
+    padding: 10px 0;
+}
+.container .form form .link a{
+    color: #fff;
+}

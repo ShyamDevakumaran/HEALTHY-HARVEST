@@ -1,0 +1,11 @@
+html, body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../banner.jpg);
+    color:#fff;
+	height:80vh;
+	background-size:cover;
+    font-family:century gothic;
+}
+body{
+    margin: 80px;
+    text-align: center;
+}

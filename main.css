@@ -1,0 +1,108 @@
+   /* MAIN BOX STARTS*/
+
+body{
+  background-image:url("../bkimg3.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+       /* HEADER STARTS*/
+ul{
+	float:right;
+    border-spacing:inherit;
+    letter-spacing: inherit;
+	list-style-type:none;
+	margin-top:20px;
+}
+
+ul li{
+	display:inline-block;
+}
+
+ul li a {
+    border:0px solid #fff;
+    right:50%;
+	padding:3px 10px;
+	color:#fff;
+	text-decoration:none;
+	transition:0.1s ease;
+}
+
+ul li a:hover{
+	background-color:#228b22;
+	color:#fff;
+}
+
+
+ul li .active a{
+	background-color:#fff;
+}
+
+/*//HEADER ENDS*/
+
+.box{
+  background-color: black;
+  color: white;
+  padding:14px 15px;
+  position: absolute;
+  left: 367px;
+  top: 178px;
+  border-radius:10px
+}
+.button {
+	background-color:black;
+	border-radius:28px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:orange;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:14px 23px;
+	text-decoration:none;
+	text-shadow:0 0 0 #2b665e;
+  position: absolute;
+  left: 27%;
+  top: 495px;
+}
+.button:hover {
+	background-color:peachpuff;
+}
+
+.td1{
+  color: lemonchiffon;
+  font-family: sans-serif;
+  font-size:110%;
+  opacity:1.0;
+}
+.td2{
+  font-family: sans-serif;
+  font-size:110%;
+}
+
+
+.foot{
+     top:0%;
+     left:0%;
+}
+
+.text{
+    color:#000;
+    text-transform: uppercase;
+     top:8%;
+     left:12%;
+     position: absolute;
+}
+  
+.a{
+  float: right;
+}
+
+
+
+     /* //MAIN BOX ENDS */
+     
+ 
