@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Main Page</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel ="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+   
+        <!-- HEADER  STARTS-->
+     
+
+    <div class="main">
+      <ul>
+            <li class="active"><a href="suggestion.html">SUGGESTION</a></li>
+            <li class="active"><a href="index.html">LOGOUT</a></li>
+      </ul>
+    </div>	
+
+        <!--<h1>WELCOME <?php  echo $_SESSION['user']; ?></h1>-->
+
+         <!--<div class="foot">
+            <div class="text">
+                <h1>Paving the way for a successful future for our farmers!</h1>
+            </div>
+        </div>-->
+          
+          <!--//HEADER ENDS-->
+
+          
+          <!-- MAIN BOX STARTS-->
+
+        <div class="box">
+        <table align ="center" cellpadding="9" height="50%" width="50%">
+            
+          <!-- ph value input-->
+            
+          <tr>
+            <td class="td1"><strong>Enter the pH value: </strong></td>
+            <td>
+              <select class="td2" name="pH value" id="pH value">
+                <option value="-1">pH value</option>
+                <option value="a">3</option>
+                <option value="b">4</option>
+                <option value="c">5</option>
+                <option value="d">6</option>
+                <option value="e">7</option>
+                <option value="f">8</option>
+                <option value="g">9</option>
+                <option value="h">10</option>
+                </select>
+            </td>
+          </tr>
+            
+            
+          <!-- crop cultivated input -->
+            
+            
+          <tr>
+            <td class="td1"><strong>Crop last cultivated:</strong></td>
+            <td><input class="td2" type="text" name="text" maxlength="30" placeholder="Enter your crop"></td>
+          </tr>
+            
+          <!-- residing state-->
+            
+            
+          <tr>
+            <td class="td1"><strong>Residing State:</strong></td>
+            <td>
+              <select class="td2" name="Residing State" id="State">
+                <option value="-1">State</option>
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CH">Chandigrah</option>
+                <option value="CG">Chattisgarh</option>
+                <option value="DD">Dadra and Nagar Haveli and Daman and Diu</option>
+                <option value="DL">Delhi</option>
+                <option value="GA">Goa</option>
+                <option value="GJ">Gujarat</option>
+                <option value="HR">Haryana</option>
+                <option value="HP">Himachal Pradesh</option>
+                <option value="JK">Jammu and Kashmir</option>
+                <option value="JH">Jharkhand</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="LA">Ladakh</option>
+                <option value="LD">Lakshadweep</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MH">Maharashtra</option>
+                <option value="MN">Manipur</option>
+                <option value="ML">Meghalaya</option>
+                <option value="MZ">Mizoram</option>
+                <option value="NL">Nagaland</option>
+                <option value="OR">Odisha</option>
+                <option value="PY">Puducherry</option>
+                <option value="PB">Punjab</option>
+                <option value="RJ">Rajasthan</option>
+                <option value="SK">Sikkim</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TR">Tripura</option>
+                <option value="TG">Telangana</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="UK">Uttarakhand</option>
+                <option value="WB">West Bengal</option>
+              </select>
+            </td>
+          </tr>
+            
+             <!-- NPK VALUES -->
+            
+          <tr>
+            <td class="td1"><strong>Macronutrient values:</strong><br><strong>(N,P,K)</strong></td>
+            <td>
+              <table>
+                <tr>
+                  <td>
+                    <select class="td2" name="N value" id="N value">
+                      <option value="-1">N value</option>
+                      <option value="Low"><240Kg/ha</option>
+                      <option value="Medium">240- 480kg/ha</option>
+                      <option value="High">>480Kg/ha</option>
+                      </select>
+                  </td>
+                  <td>
+                    <select class="td2" name="P value" id="P value">
+                      <option value="-1">P value</option>
+                      <option value="Low"><11.0 Kg/ha</option>
+                      <option value="Medium">11 – 22 Kg/ha</option>
+                      <option value="High">>22 Kg/ha</option>
+                      </select>
+                  </td>
+                  <td>
+                    <select class="td2" name="K value" id="K value">
+                      <option value="-1">K value</option>
+                      <option value="Low"><110Kg/ha</option>
+                      <option value="Medium">110-280Kg/ha</option>
+                        <option value="High">>280Kg/ha</option>
+                      </select>
+                   </td>
+                   </tr>
+                  </table>
+                  </td>
+                  </tr>
+            </table>
+             
+              <!-- //NPK VALUES -->
+            
+            </div>
+              <form action="" method="POST" autocomplete="">
+             <div class="form-group">
+              <input class="form-control button" type="submit" name="summit" value="SUMMIT" >
+             </div>
+             </form>
+      
+             <!--//MAIN BOX ENDS-->
+      
+  </body>
+</html>
